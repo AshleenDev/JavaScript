@@ -34,3 +34,18 @@ double(4);
  * Output : 8
  */
 ```
+
+## Strings
+
+### Length of a string
+
+```javascript
+let country = "France";
+let countryLength = country.length;
+
+console.log(countryLength);
+
+/**
+ * Output : 6
+ */
+```
