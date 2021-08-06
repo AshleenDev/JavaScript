@@ -49,3 +49,29 @@ console.log(countryLength);
  * Output : 6
  */
 ```
+
+### Convert a string to uppercase
+
+```javascript
+let firstName = 'Ashleen';
+firstName = firstName.toUpperCase();
+
+console.log(firstName);
+
+/**
+ * Output: ASHLEEN
+ */
+```
+
+### Convert a string to lowercase
+
+```javascript
+let firstName = 'AShleEn';
+firstName = firstName.toLowerCase();
+
+console.log(firstName);
+
+/**
+ * Output: ashleen
+ */
+```
