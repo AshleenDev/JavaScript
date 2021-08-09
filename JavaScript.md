@@ -75,3 +75,24 @@ console.log(firstName);
  * Output: ashleen
  */
 ```
+
+## Arrays
+
+### Declare an array
+
+```javascript
+// Declare an array
+let countries = ['France', 'Belgium', 'Italy', 'Spain', 'Switzerland'];
+```
+
+### Append an item to an array in JavaScript
+
+```javascript
+let countries = ['France', 'Belgium', 'Italy', 'Spain', 'Switzerland'];
+
+// Append an item to the end of the array
+countries.push('Germany');
+
+// Append an item to the beginning of the array
+countries.unshift('United Kingdom');
+```
