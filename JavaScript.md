@@ -85,7 +85,7 @@ console.log(firstName);
 let countries = ['France', 'Belgium', 'Italy', 'Spain', 'Switzerland'];
 ```
 
-### Append an item to an array in JavaScript
+### Append an item to an array
 
 ```javascript
 let countries = ['France', 'Belgium', 'Italy', 'Spain', 'Switzerland'];
@@ -95,4 +95,16 @@ countries.push('Germany');
 
 // Append an item to the beginning of the array
 countries.unshift('United Kingdom');
+```
+
+### Remove an item from an array
+
+```javascript
+let countries = ['France', 'Belgium', 'Italy', 'Spain', 'Switzerland'];
+
+// Remove the first item from the array
+countries.shift();
+
+// Remove the last item from the array
+countries.pop();
 ```
